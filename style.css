@@ -1,0 +1,66 @@
+.grid{
+  margin-top:50px;
+  //display:none;
+  width:940px;
+  height:900px;
+  display: flex;
+  flex-wrap: wrap;
+  border-raduis:25px;
+}
+
+.grid div{
+  display: none;
+  font-size:100px;
+  height:300px;
+  width:300px;
+  background-color:white;
+  text-align:center;
+  border: 5px solid black;
+  font-size :150px;
+  line-height:200px;
+ 
+}
+
+#player{
+  width: 940px;
+  height: 200px;
+  text-align:center;
+  font-size: 30px;
+  background-color: grey;
+}
+
+  
+#btn{
+  margin-left:300px;
+  margin:auto;
+  margin-top:60px;
+  width:900px;
+  height:100px;
+  border-radius:25px;
+  background-color:rgb(127,255,212,.6);
+  }
+  
+
+#bttn{
+  margin-left:300px;
+  margin:auto;
+  margin-top:30px;
+  width:900px;
+  height:100px;
+  border-radius:25px;
+  background-color:rgb(250,0,0,.6);
+  }
+
+
+#winner{
+  margin-top:50px;
+  display: none;
+  height:940px;
+  width:940px;
+  background-color:green;
+  color:red;
+  border-radius:50px;
+  text-align:center;
+  line-height:500px;
+  font-size:200px;
+}
